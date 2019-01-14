@@ -1,12 +1,11 @@
 # vimrc-for-python
-my vimrc for python
-
-## Set up Vundle
+## Usage
+1. Set up Vundle
 ` git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-## Download `vimrc` to your home as `.vimrc`
+2. Download `vimrc` to your home as `.vimrc`
 
-## Install Plugins:
+3. Install Plugins:
 
 Launch `vim` and run `:PluginInstall`
 
