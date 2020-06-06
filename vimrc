@@ -67,9 +67,11 @@ set softtabstop=4     " 设置 删除 tab 的宽度
 set shiftwidth=4      " 设置 智能缩进的宽度
 set expandtab         " 设置 将 tab 转换为 4 个空格
 
-" 突出显示当前行，列
+" 突出显示当前行、列
 set cursorline
-set cursorcolumn
+hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+" set cursorcolumn
+" hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 " ===============================
 " ==========Key Mapping==========
